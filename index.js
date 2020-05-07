@@ -5,5 +5,5 @@ function findMatching(array, str) {
 }
 
 function fuzzmatch(array, str) {
-  return array.filter(element => {return element === });
+  return array.filter(element => {return element.toLowerCase. === 0});
 }
