@@ -7,3 +7,7 @@ function findMatching(array, str) {
 function fuzzyMatch(array, str) {
   return array.filter(element => {return element.toLowerCase().indexOf(str.toLowerCase()) === 0});
 }
+
+function matchName(array, str) {
+  return array.filter(element => {return element === str});
+}
